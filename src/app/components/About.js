@@ -25,15 +25,14 @@ function About() {
               <br /> maritime operations
             </h1>
             <p className='py-6'>
-              We are a team of maritime operations specialists committed to
-              improving the efficiency and safety of marine operations.
+              We're a dedicated team of maritime operations experts focused on
+              enhancing both the efficiency and safety of marine operations.
             </p>
             <p className='py-6 mb-8'>
-              We deliver innovative solutions designed to meet our clients'
-              specific requirements. Our goal is to achieve excellence by
-              providing solutions that boost operational performance. We value
-              solid and enduring relationships with our clients, ensuring that
-              each solution we provide significantly enhances their operations.
+              Our approach is to tailor innovative solutions that meet our
+              client's specific needs. Building strong and lasting relationships
+              with our clients is important to us, as it ensures that our
+              solutions have a meaningful impact on their operations.
             </p>
             <button className='p-4 px-12 rounded-lg bg-[#2154F5] text-white'>
               About Us

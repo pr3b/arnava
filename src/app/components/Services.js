@@ -82,10 +82,10 @@ function Services() {
                 Software Development
               </p>
               <p className='text-[#070707] pt-8 text-lg group-hover:text-white'>
-                We've streamlined the buying process for Electric Ships and
-                Sensors, following Pelindo-approved standards for compliance and
-                efficiency. Trust us to efficiently source and procure the ideal
-                maritime solutions for your operations.
+                We develop tailored software solutions to streamline your
+                operations. From package tracking to fleet management, our
+                custom software enhances efficiency and simplifies your maritime
+                operations.
               </p>
               <p className='text-[#070707] pt-8 text-lg group-hover:text-white'>
                 Learn More →
