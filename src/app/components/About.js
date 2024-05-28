@@ -3,7 +3,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div>
+    <div id='about'>
       <div className='bg-[#f2f5f9] hero py-2 sm:py-32 text-[#070707]'>
         <div className='max-w-4xl hero-content flex-col lg:flex-row-reverse'>
           <div>

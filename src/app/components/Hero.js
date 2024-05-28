@@ -6,18 +6,18 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'About Us', href: '#' },
-  { name: 'Blog', href: '#' },
-  { name: 'Projects', href: '#' },
-  { name: 'Services', href: '#' },
+  { name: 'Home', href: '#hero' },
+  { name: 'Services', href: '#services' },
+  { name: 'About Us', href: '#about' },
+  // { name: 'Blog', href: '#' },
+  // { name: 'Projects', href: '#' },
 ];
 
 export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className='bg-white'>
+    <div id='hero' className='bg-white'>
       <header className='absolute inset-x-0 top-0 z-50'>
         <nav
           className='flex items-center justify-between p-6 lg:px-8 backdrop-blur-lg text-white'
@@ -56,12 +56,12 @@ export default function Hero() {
                 {item.name}
               </a>
             ))}
-            <div className='text-[14px] bg-[#2154F5] -ml-[2.5rem] px-2 rounded-md'>
+            {/* <div className='text-[14px] bg-[#2154F5] -ml-[2.5rem] px-2 rounded-md'>
               beta
-            </div>
+            </div> */}
           </div>
           <div className='hidden lg:flex lg:flex-1 lg:justify-end gap-x-6'>
-            <a
+            {/* <a
               href='#'
               className='p-2 text-sm font-semibold leading-6 text-white'
             >
@@ -72,7 +72,7 @@ export default function Hero() {
               className='p-2 px-4 text-sm rounded-md font-semibold leading-6 text-white bg-[#2154F5]'
             >
               Sign Up
-            </a>
+            </a> */}
           </div>
         </nav>
         <Dialog
@@ -116,14 +116,14 @@ export default function Hero() {
                     </a>
                   ))}
                 </div>
-                <div className='py-6'>
+                {/* <div className='py-6'>
                   <a
                     href='#'
                     className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
                   >
                     Log in
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </DialogPanel>
